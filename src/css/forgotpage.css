@@ -1,0 +1,188 @@
+.login-container-forgot {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+.form-container-forgot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 487px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(19, 56, 44);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.logo {
+  width: 156px;
+  height: 121px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #f6fb7a;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.keterangan {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 11px;
+}
+
+.google-login {
+  width: 384px;
+  height: 46.48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #333;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+  margin-bottom: 23px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.google-login img {
+  padding-right: 13px;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #d1d5db;
+  margin: 0 10px;
+}
+
+.or-text {
+  font-size: 0.8rem;
+  color: #d1d5db;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.title_input_field {
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.title_input_email {
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.input-field {
+  width: 384px;
+  height: 41px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 8px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-field-email {
+  width: 261px;
+  height: 41px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 22px;
+}
+
+.kode-button {
+  background-color: #3b82f6;
+  color: white;
+  width: 108px;
+  height: 41px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 22px;
+}
+
+.submit-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 14px;
+  width: 384px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.back-login {
+  padding-top: 24px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.image-container-forgot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.side-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 3s ease-in-out;
+  opacity: 0;
+}
+
+.side-image.active {
+  opacity: 1;
+}
