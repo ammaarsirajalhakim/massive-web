@@ -2,7 +2,11 @@
     position: relative;
     top: 0;
     display: flex;
+<<<<<<< HEAD
     padding: 48px 48px 20px;
+=======
+    padding: 48px 0 20px 48px;
+>>>>>>> 6ca12a5 (add dropshiper(fix))
     width: 100%;
     z-index: 1000;
     align-items: center;

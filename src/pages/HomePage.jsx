@@ -74,7 +74,11 @@ const HomePage = () => {
   return (
     <section className='scroll'>
       <div className="main-container">
+<<<<<<< HEAD
         <div className="nav" id="navbar">
+=======
+        <div className="navi" id="navbar">
+>>>>>>> 6ca12a5 (add dropshiper(fix))
           <div className="logos">
             <img src={logo} alt="Logo" />
           </div>
